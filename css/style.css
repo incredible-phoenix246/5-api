@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 300px;
+    min-height: 100vh;
+   
+  }
+
+  .popup-container{
+    background-color: #ffffff;
+    box-shadow:  0 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    /* min-width: 300px; */
+    /* height: 400px; */
+    padding: 24px;
+    display: block;
+    
+    
+  }
+  .popup-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  .logo img{
+    width: 32px;
+  
+  }
+  h3{
+    /* font-size: 20px; */
+    color: #100A42;
+    margin-left: 10px;
+    /* font-weight: 500; */
+  }
+  .settings{
+    margin-right: 10px;
+  }
+  .popup-container h4{
+    margin: 25px 0;
+    font-size: 14px;
+  }
+  .window{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+  }
+  .window img{
+    align-items: center;
+  }
+  
+  .window p{
+    font-size: 16px;
+  }
+  .btn{
+    width: 100%;
+    height: 48px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #0F172A;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .camera,
+  .mic {
+    display: flex;
+    align-items: center;
+  }
+  .camera img,
+  .mic img{
+    margin-right: 10px;
+  }
+  .toggle{
+    width: 50px;
+    height: 30px;
+    background: gray;
+    position: relative;
+    border-radius: 12px;
+  }
+  
+  
+  .recording-btn{
+    width: 100%;
+    text-align: center;
+    padding:  20px;
+    background: #120B48;
+    color: #ffffff;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  .permission-container{
+    min-width:400px ;
+    height: 200px;
+    padding: 10px;
+  
+  }
+  .permission-heading{
+    display: flex;
+    justify-content: space-between;
+  }
+  .permission{
+    display: flex;
+  }
+  .permission img{
+    margin-right: 15px;
+  }
+  .button{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    border: none;
+  }
+  .active{
+    background: #120B48;
+    transform: translateX(100%);
+  }
+  
